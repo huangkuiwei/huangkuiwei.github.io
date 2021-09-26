@@ -1,0 +1,120 @@
+.login-page {
+  height: 100%;
+}
+.login-page > .banner-wrap {
+  height: calc(100% - 90px);
+  background: url('../images/login/bg.png') left top / 100% 100% no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 264px;
+}
+.login-page > .banner-wrap > .login-wrap {
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  position: relative;
+}
+.login-page > .banner-wrap > .login-wrap > .logo {
+  height: 44px;
+  position: absolute;
+  top: -66px;
+  left: 0;
+}
+.login-page > .banner-wrap > .login-wrap > .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .login-type {
+  display: flex;
+  padding-bottom: 30px;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .login-type > span {
+  cursor: pointer;
+  padding-bottom: 22px;
+  position: relative;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .login-type > span:not(:last-child) {
+  margin-right: 22px;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .login-type > span.active {
+  font-weight: bold;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .login-type > span.active > .line {
+  display: inline;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .login-type > span > .line {
+  height: 4px;
+  width: 26px;
+  position: absolute;
+  border-radius: 2px;
+  bottom: 0;
+  left: 20px;
+  display: none;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .password-login-form {
+  display: none;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .sms-login-form > div {
+  margin-bottom: 12px;
+  width: 300px;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .sms-login-form > div.code {
+  position: relative;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .sms-login-form > div.code > .tip {
+  position: absolute;
+  right: 12px;
+  top: 20px;
+  cursor: pointer;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .sms-login-form > div > input {
+  width: 100%;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .policy {
+  align-self: stretch;
+  color: #a3a5a9;
+  margin-top: 39px;
+  font-size: 12px;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .policy > span {
+  cursor: pointer;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .login-btn {
+  margin-top: 11px;
+  width: 300px;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .login-btn > button {
+  width: 100%;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .options {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  font-size: 12px;
+}
+.login-page > .banner-wrap > .login-wrap > .left > .options > span {
+  cursor: pointer;
+}
+.login-page > .banner-wrap > .login-wrap > .line {
+  width: 1px;
+  height: 100%;
+  background: #000000;
+  margin: 0 89px 0 50px;
+  opacity: 0.1;
+}
+.login-page > .banner-wrap > .login-wrap > .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-page > .banner-wrap > .login-wrap > .right > .qr-code {
+  margin: 53px 0 18px;
+}
+.login-page > .banner-wrap > .login-wrap > .right > .qr-code > img {
+  width: 160px;
+}

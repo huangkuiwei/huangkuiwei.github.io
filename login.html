@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>登录</title>
+    <link rel="stylesheet" href="static/css/reset.css" />
+    <link rel="stylesheet" href="static/css/global.css" />
+    <link rel="stylesheet" href="static/css/common.css" />
+    <link rel="stylesheet" href="static/plugin/message/message.css" />
+    <link rel="stylesheet" href="static/css/appHeader.css" />
+    <link rel="stylesheet" href="static/css/login.css" />
+  </head>
+  <body>
+    <div class="login-page">
+      <!-- 头部 -->
+      <div class="header-wrap"></div>
+
+      <div class="banner-wrap">
+        <div class="login-wrap bg-white">
+          <img class="logo" src="static/images/login/logo.png" alt="" />
+
+          <div class="left">
+            <div class="login-type f18 gray">
+              <span class="password">
+                <span>密码登录</span>
+                <span class="line bg-main-color"></span>
+              </span>
+              <span class="sms">
+                <span>短信登录</span>
+                <span class="line bg-main-color"></span>
+              </span>
+            </div>
+
+            <!-- TODO 密码登录 -->
+            <div class="password-login-form"></div>
+
+            <!-- 短信登录 -->
+            <div class="sms-login-form">
+              <div class="phone">
+                <input type="text" placeholder="请输入手机号" />
+              </div>
+
+              <div class="code">
+                <input type="text" placeholder="请输入验证码" />
+                <span class="tip main-color">获取验证码</span>
+              </div>
+            </div>
+
+            <div class="policy">已阅读并同意<span class="gray">服务协议</span>和<span class="gray">隐私条款</span></div>
+
+            <div class="login-btn">
+              <button class="primary">登录</button>
+            </div>
+
+            <div class="options">
+              <span class="forget gray">忘记密码</span>
+              <span class="register main-color">注册账号</span>
+            </div>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="right">
+            <div class="f18">扫码登录</div>
+            <div class="qr-code">
+              <img src="static/images/login/qr-code.jpg" alt="" />
+            </div>
+            <div class="f12">打开微信扫一扫，即可登录</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="static/plugin/jquery.js"></script>
+    <script src="static/plugin/message/message.js"></script>
+    <script src="static/js/common/appHeader.js"></script>
+    <script src="static/js/views/login.js"></script>
+  </body>
+</html>

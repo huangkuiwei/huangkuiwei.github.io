@@ -1,0 +1,58 @@
+.replace-phone-dialog {
+  display: none;
+}
+.replace-phone-dialog > div {
+  width: 364px;
+}
+.replace-phone-dialog > div.original-phone > input,
+.replace-phone-dialog > div.new-phone > input {
+  width: 100%;
+}
+.replace-phone-dialog > div.verification-code {
+  display: flex;
+  align-items: center;
+}
+.replace-phone-dialog > div.verification-code > input {
+  flex-grow: 1;
+  margin-right: 4px;
+}
+.replace-phone-dialog > div.verification-code > img {
+  flex-shrink: 0;
+  height: 44px;
+  cursor: pointer;
+}
+.replace-phone-dialog > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+.replace-phone-dialog > div.btn {
+  margin-top: 30px;
+}
+.replace-phone-dialog > div.btn > button {
+  width: 100%;
+  height: 44px;
+}
+.replace-phone-dialog > div > input {
+  height: 44px;
+  background: #f9f9f9;
+}
+.modify-password-dialog {
+  display: none;
+}
+.modify-password-dialog > div {
+  width: 364px;
+}
+.modify-password-dialog > div:not(:last-child) {
+  margin-bottom: 10px;
+}
+.modify-password-dialog > div.btn {
+  margin-top: 30px;
+}
+.modify-password-dialog > div.btn > button {
+  width: 100%;
+  height: 44px;
+}
+.modify-password-dialog > div > input {
+  height: 44px;
+  background: #f9f9f9;
+  width: 100%;
+}

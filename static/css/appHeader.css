@@ -1,0 +1,76 @@
+.header-wrap {
+  height: 90px;
+  padding: 0 260px;
+  position: relative;
+  z-index: 99;
+}
+@media screen and (max-width: 1420px) {
+  .header-wrap {
+    padding: 0 100px;
+  }
+}
+.header-wrap > .header {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-wrap > .header > .logo {
+  height: 44px;
+}
+.header-wrap > .header > .right-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-wrap > .header > .right-wrap > .nav-list > span {
+  margin-right: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.header-wrap > .header > .right-wrap > .nav-list > span.active {
+  background: #ff9c33;
+  border-radius: 16px;
+  color: #ffffff;
+  padding: 8px 16px;
+}
+@media screen and (max-width: 1420px) {
+  .header-wrap > .header > .right-wrap > .nav-list > span {
+    margin-right: 0;
+  }
+}
+.header-wrap > .header > .right-wrap > a > .search {
+  margin: 0 74px 0 32px;
+  height: 23px;
+  cursor: pointer;
+}
+.header-wrap > .header > .right-wrap > .user {
+  position: relative;
+}
+.header-wrap > .header > .right-wrap > .user:hover > ul {
+  display: block;
+}
+.header-wrap > .header > .right-wrap > .user > .head {
+  height: 54px;
+  cursor: pointer;
+}
+.header-wrap > .header > .right-wrap > .user > ul {
+  position: absolute;
+  left: -40px;
+  background: #ffffff;
+  padding: 10px 0;
+  box-shadow: 0 2px 63px 7px rgba(248, 88, 49, 0.06);
+  border-radius: 10px;
+  display: none;
+}
+.header-wrap > .header > .right-wrap > .user > ul li {
+  white-space: nowrap;
+}
+.header-wrap > .header > .right-wrap > .user > ul li > a {
+  display: block;
+  padding: 13px 42px;
+}
+.header-wrap > .header > .right-wrap > .user > ul li > a:hover {
+  color: #ff9c33 !important;
+  background: #fdf1e9;
+}
