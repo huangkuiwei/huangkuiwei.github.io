@@ -97,11 +97,15 @@ $(document).ready(function () {
 
     if (navData.needHighLight) {
       // 初始化时手动触发一次
-      var index = navData.navList.findIndex(function (item) {
-        return Number(item.id) === Number(navData.platformId);
+      var currentIndex;
+
+      navData.navList.forEach(function (item, index) {
+        if (Number(item.id) === Number(navData.platformId)) {
+          currentIndex = index;
+        }
       });
 
-      navData.platformChange(index, navSpanList[index]);
+      navData.platformChange(currentIndex, navSpanList[currentIndex]);
     }
   });
 });
