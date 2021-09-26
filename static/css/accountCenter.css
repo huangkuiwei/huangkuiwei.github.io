@@ -32,6 +32,7 @@
 }
 .account-center-page > .account-center-wrap > div > .user-info {
   height: calc(100% - 150px);
+  min-height: 550px;
   background: #ffffff;
   box-shadow: 0 2px 63px 7px rgba(248, 88, 49, 0.06);
   border-radius: 10px;
