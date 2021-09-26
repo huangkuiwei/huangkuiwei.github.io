@@ -3,6 +3,7 @@
 }
 .login-page > .banner-wrap {
   height: calc(100% - 90px);
+  min-height: 700px;
   background: url('../images/login/bg.png') left top / 100% 100% no-repeat;
   display: flex;
   flex-direction: column;
